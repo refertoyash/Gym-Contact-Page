@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    box-sizing: border-box;
+    float: left;
+    list-style: none;
+    margin: 10px;
+    padding: 17px;
+    /* border: 2px solid greenyellow; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg.jpg);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+}
+
+#left {
+
+    display: inline;
+    /* border: 2px solid greenyellow; */
+
+}
+
+#mid {
+
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 192px;
+
+    /* border: 2px solid greenyellow; */
+
+}
+
+/* #mid li{
+    padding-left: 9px;
+} */
+
+#right {
+    /* border: 2px solid greenyellow; */
+    display: inline;
+    position: absolute;
+    margin-top: 16px;
+    top: -15px;
+    left: 900px;
+
+}
+/* header{
+position: sticky;
+top: 8px;
+border: 2px solid red;
+} */
+#right.li {
+    color: yellow;
+}
+
+img {
+    display: inline-block;
+    /* border: 2px solid greenyellow; */
+    margin-bottom: 21px;
+    margin-left: 35px;
+}
+
+h2 {
+    /* border: 2px solid greenyellow; */
+    font-family: 'Newsreader', serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 57px;
+    left: 34px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover,
+#home ,.btn {
+    background-color: white;
+    padding: 9px;
+    font-weight: bolder;
+    border-radius: 108px;
+    color: black;
+    box-shadow: 2px 2px yellow;
+    /* text-decoration: underline; */
+
+}
+
+#call {
+    background-color: rgb(65, 209, 79);
+font-weight: bolder;
+    padding: 9px;
+    border-radius: 108px;
+    color:black        }
+
+#email {
+    background-color: rgb(245, 76, 76);
+    padding: 9px;
+    border-radius: 108px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+#call:hover,
+#email:hover {
+
+    font-size: 17px;
+}
+.container  {
+    /* border: 2px solid greenyellow; */
+    width: 770px;
+    height: 645px;
+    padding-top: 20px;
+    position: absolute;
+    top: 111px;
+    left: 80px;
+    text-align: center;
+}
+.head{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: 165px;
+}
+.form{
+    /* border:2px solid greenyellow; */
+    margin-top:89px ;
+    padding: 20px;
+}
+.details{
+    width: 342px;
+    padding: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.btn{
+    border: none;
+    background-color: rgb(35 230 68);
+    box-shadow: none;
+    padding: 10px;
+    width: 130px;
+}
+.btn:hover{
+    cursor: pointer;
+    width: 135px;
+    height: 45px;
+    box-shadow: 2px 2px 2px yellow;
+    font-weight: bolder;
+}
